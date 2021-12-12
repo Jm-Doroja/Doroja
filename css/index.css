@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Garamond', sans;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #F2ebdd;
+    z-index: 9;
+}
+
+.nav{
+	
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+	
+}
+
+.brand-logo{
+    height: 110px;
+	border-radius: 50%;
+}
+.brand-name{
+	position: sticky;
+	float: left;
+margin-right: 580px;
+margin-top: 48px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+  a{  
+            text-decoration: none;  
+            color: Black;  
+            font-size: 25px;  
+            padding: 10px;  
+        }  
+        a:hover{  
+            color: White;  
+        }  
+             h1{  
+        text-align: center;  
+        }  
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 25px;
+
+}
+
+ul{
+	list-style-type:none;
+}
+
+/*--footer---*/
+footer{
+	margin-top: 20px;
+    background: #383838;
+    height: auto;
+    width: 100%;
+    font-family:'Garamond', sans;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a :hover i{
+    color: #000;
+
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}   
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
